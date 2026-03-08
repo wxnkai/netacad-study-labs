@@ -1,0 +1,6 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Packet Tracer temporary/backup files
+*.pkz
+*.bak
