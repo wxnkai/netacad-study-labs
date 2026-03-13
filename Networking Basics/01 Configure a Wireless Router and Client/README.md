@@ -2,13 +2,13 @@
 
 A hands-on networking lab completed in Cisco Packet Tracer that walks through setting up a home network from scratch: cabling devices, configuring a wireless router via its GUI, securing a Wi-Fi network, and verifying internet connectivity across wired and wireless clients.
 
-## Objectives
+## 🎯 Objectives
 
 - Connect coaxial and Ethernet cables to the appropriate devices
 - Configure a home wireless router (DHCP, admin credentials, SSID, wireless security)
 - Assign IP addressing to clients and verify end-to-end internet connectivity
 
-## Lab Steps
+## 📋 Lab Steps
 
 ### Part 1 – Connect the Devices
 
@@ -73,6 +73,8 @@ All router configuration is done through the router's web-based GUI, accessed vi
    > **Note:** Passphrase is case-sensitive.
 8. Click **Save Settings** and close the browser.
 
+---
+
 ### Part 3 – Configure IP Addressing and Test Connectivity
 
 #### Step 1: Connect the Laptop via Wi-Fi
@@ -99,7 +101,7 @@ All router configuration is done through the router's web-based GUI, accessed vi
 3. Close **IP Configuration**, open **Web Browser**, and navigate to `skillsforall.srv`.
 4. Confirm the page loads, verifying the Bedroom PC has internet access.
 
-## Key Learnings
+## 🔑 Key Learnings
 
 ### Physical Cabling
 The correct cable type must be used for each connection. Coaxial cable carries the signal from the provider into the home, a splitter separates that signal for the modem and TV, and copper straight-through Ethernet cables link the modem, router, and wired PCs. Getting the physical layer right is a prerequisite for everything that follows.

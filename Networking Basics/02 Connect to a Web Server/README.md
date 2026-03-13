@@ -2,11 +2,11 @@
 
 A hands-on networking lab completed in Cisco Packet Tracer that demonstrates how IP packets are routed across a network to reach a web server. This exercise covers basic connectivity verification and HTTP communication using a simulated client-server environment.
 
-## Objective
+## 🎯 Objective
 
 - Observe how packets travel across a network using IP addressing by connecting a client PC to a remote web server.
 
-## Lab Steps
+## 📋 Lab Steps
 
 ### Part 1 – Verify Network Connectivity
 
@@ -24,6 +24,8 @@ A hands-on networking lab completed in Cisco Packet Tracer that demonstrates how
 
 5. Close the Command Prompt window, keeping the PC0 configuration window open.
 
+---
+
 ### Part 2 – Access the Web Server via Browser
 
 1. From the **Desktop** tab on PC0, open **Web Browser**.
@@ -36,7 +38,7 @@ A hands-on networking lab completed in Cisco Packet Tracer that demonstrates how
 3. Click **Go** — the browser connects to the web server over HTTP and loads the hosted web page.
    **Expected result:** A welcome page loads, confirming end-to-end connectivity and that both a web client and web server are functioning correctly.
 
-## Key Learnings
+## 🔑 Key Learnings
 
 ### IP Addresses
 
@@ -54,7 +56,7 @@ ARP bridges the gap between Layer 2 and Layer 3. Even though IP operates at Laye
 
 HTTP is what turns a raw IP connection into a web experience. Once Layer 3 connectivity was confirmed via ping, opening a web browser and navigating to the same IP address demonstrated the application layer at work. The browser sent an HTTP GET request to port 80 on the server, which responded with a web page.
 
-## Points to Remember
+## 📌 Points to Remember
 
 - Always verify Layer 3 connectivity with ping before troubleshooting the application layer. Network layers depend on each other, and working from the bottom up saves time.
 - First-ping packet loss is expected behavior. ARP needs time to resolve the destination MAC address before the first packet can be sent. This is normal. All four packets failing is the sign of a real problem.
