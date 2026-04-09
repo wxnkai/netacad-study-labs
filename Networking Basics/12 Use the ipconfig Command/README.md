@@ -28,6 +28,7 @@ A small office has four PCs, all statically addressed on the `192.168.1.0/24` ne
    | IP Address      |       |
    | Subnet Mask     |       |
    | Default Gateway |       |
+   | DNS Server      |       |
 
 4. Close the Command Prompt and repeat steps 1 through 3 on every remaining PC.
 
